@@ -1,5 +1,5 @@
 let nomeUsuario = "Livia"
-let nivelExperiencia = 1506
+let nivelExperiencia = 10001
 let xp 
 
 switch(true){
@@ -21,11 +21,11 @@ switch(true){
     case nivelExperiencia >= 8001 && nivelExperiencia <= 9000:
         xp = "Ascedente"
         break
-    case nivelExperiencia >= 9001 && nivelExperiencia <= 1000:
+    case nivelExperiencia >= 9001 && nivelExperiencia <= 10000:
         xp = "Imortal"
         break
     default:
-        "Radiante"
+      xp = "Radiante"
 }
 
 
